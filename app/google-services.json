@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "115526663466",
+    "firebase_url": "https://facedetectionandroid.firebaseio.com",
+    "project_id": "facedetectionandroid",
+    "storage_bucket": "facedetectionandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115526663466:android:d4680b858fbfa62c",
+        "android_client_info": {
+          "package_name": "com.example.rm.firebaseexamplemachinelearningkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115526663466-ottj9f0da2lmqh61av3gmf42d04of8cf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rm.firebaseexamplemachinelearningkit",
+            "certificate_hash": "1bc6a2e19767848199e2a92a76246d8d913d7f5d"
+          }
+        },
+        {
+          "client_id": "115526663466-b667h3bffi5dk6prv54eec7cnt9jkpb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyJqJTD-6SP4hhyWXw5vm4GFh70lIDn4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115526663466-b667h3bffi5dk6prv54eec7cnt9jkpb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115526663466:android:a2b2be161b277909",
+        "android_client_info": {
+          "package_name": "com.example.rm.firebaseexamplemlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115526663466-cdf0vl582r46slc1khsdsj4pg8u8of6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rm.firebaseexamplemlkit",
+            "certificate_hash": "1bc6a2e19767848199e2a92a76246d8d913d7f5d"
+          }
+        },
+        {
+          "client_id": "115526663466-b667h3bffi5dk6prv54eec7cnt9jkpb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyJqJTD-6SP4hhyWXw5vm4GFh70lIDn4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115526663466-b667h3bffi5dk6prv54eec7cnt9jkpb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
