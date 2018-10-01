@@ -24,13 +24,13 @@ class FaceListAdapter(private val faces: MutableList<FirebaseVisionFace>, privat
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val face = faces[position]
 
-        holder.headEulerAngleY.text = face.headEulerAngleY.toString()
-        holder.headEulerAngleZ.text = face.headEulerAngleZ.toString()
-        holder.leftEyeOpenProbability.text = face.leftEyeOpenProbability.toString()
-        holder.rightEyeOpenProbability.text = face.rightEyeOpenProbability.toString()
-        holder.smilingProbability.text = face.smilingProbability.toString()
-        holder.trackingId.text = face.trackingId.toString()
-        holder.boundingBox.text = face.boundingBox.flattenToString()
+        holder.headEulerAngleY.text = context.getString(R.string.headEulerAngleY,face.headEulerAngleY)
+        holder.headEulerAngleZ.text = context.getString(R.string.headEulerAngleZ,face.headEulerAngleZ)
+        holder.leftEyeOpenProbability.text = context.getString(R.string.leftEyeOpenProbability,face.leftEyeOpenProbability)
+        holder.rightEyeOpenProbability.text = context.getString(R.string.rightEyeOpenProbability,face.rightEyeOpenProbability)
+        holder.smilingProbability.text = context.getString(R.string.smilingProbability,face.smilingProbability)
+        holder.trackingId.text = context.getString(R.string.trackingId,face.trackingId)
+        holder.boundingBox.text = context.getString(R.string.boundingBox,face.boundingBox.flattenToString())
     }
 
 
